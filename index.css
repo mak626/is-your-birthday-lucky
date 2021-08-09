@@ -19,8 +19,8 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  align-items: center;
   margin: 30px 0px;
-  /* background: radial-gradient(rgb(9, 255, 103), yellow, rgb(0, 128, 64)); */
 }
 
 .main img {
@@ -39,11 +39,17 @@ body {
   border-radius: 4px;
   height: fit-content;
   width: auto;
+
   font-size: 1.7rem;
   margin: 1rem auto;
   padding: 10px;
   color: white;
   text-align: center;
+}
+
+.main input[type="text"] {
+  max-width: 14.7rem;
+  margin-top: 0px;
 }
 
 .main input[type="date"] {
@@ -77,6 +83,7 @@ body {
   margin: auto;
   border-radius: 4px;
   max-width: 500px;
+  margin: 18px 30px;
 }
 
 .invalid-input h4 {
@@ -92,6 +99,7 @@ body {
 
 .answer img {
   width: 2rem;
+  margin: 0px;
 }
 
 .answer h4 {
