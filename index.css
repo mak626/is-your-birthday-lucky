@@ -1,0 +1,98 @@
+@import "./styles/footer.css";
+
+:root {
+  font-family: Poppins;
+  --primary-color: #ff9317;
+  --secondary-color: #1ba4ca;
+  --nav-color: #212529;
+  --font-color: white;
+  --off-white-color: rgb(245, 245, 245);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 30px 0px;
+  /* background: radial-gradient(rgb(9, 255, 103), yellow, rgb(0, 128, 64)); */
+}
+
+.main img {
+  width: 20%;
+  margin: auto;
+}
+
+.main h3 {
+  text-align: center;
+  margin: 30px 0px 10px;
+}
+
+.main input {
+  display: block;
+  background-color: var(--nav-color);
+  border-radius: 4px;
+  height: fit-content;
+  width: auto;
+  font-size: 2rem;
+  margin: 1rem auto;
+  color: white;
+  text-align: center;
+}
+
+.main input[type="date"] {
+  margin-top: 0px;
+}
+
+.main input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main button {
+  width: 20%;
+  margin: auto;
+  background-color: var(--nav-color);
+  border-radius: 4px;
+  height: fit-content;
+  width: auto;
+  font-size: 2rem;
+  margin: 1rem auto;
+  font-weight: bold;
+  padding: 5px;
+  color: var(--primary-color);
+}
+
+.invalid-input {
+  display: none;
+  background-color: rgb(158, 29, 29);
+  padding: 5px 20px;
+  margin: auto;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.invalid-input h4 {
+  color: white;
+  text-align: center;
+}
+
+.answer {
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.answer img {
+  width: 2rem;
+}
+
+.answer h4 {
+  margin-left: 1rem;
+}
