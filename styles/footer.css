@@ -64,6 +64,10 @@ footer {
   text-align: center;
 }
 
+.footer__copyright a {
+  color: white;
+}
+
 @media (max-width: 1115px) {
   .footer-link ul {
     padding: 0px;
