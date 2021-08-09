@@ -39,8 +39,9 @@ body {
   border-radius: 4px;
   height: fit-content;
   width: auto;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 1rem auto;
+  padding: 10px;
   color: white;
   text-align: center;
 }
@@ -62,10 +63,10 @@ body {
   border-radius: 4px;
   height: fit-content;
   width: auto;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 1rem auto;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
   color: var(--primary-color);
 }
 
